@@ -1,0 +1,10 @@
+name: "Joke Action"
+description: "Random jokes from the API"
+
+outputs: 
+  joke: 
+    description: "fetched joke"
+
+runs: 
+  using: node24
+  main: dist/index.js
